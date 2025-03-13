@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sephora/static/css/main.0ab94c3e.css",
+    "main.js": "/sephora/static/js/main.d7b29134.js",
+    "static/js/453.423d51be.chunk.js": "/sephora/static/js/453.423d51be.chunk.js",
+    "index.html": "/sephora/index.html",
+    "main.0ab94c3e.css.map": "/sephora/static/css/main.0ab94c3e.css.map",
+    "main.d7b29134.js.map": "/sephora/static/js/main.d7b29134.js.map",
+    "453.423d51be.chunk.js.map": "/sephora/static/js/453.423d51be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ab94c3e.css",
+    "static/js/main.d7b29134.js"
+  ]
+}
