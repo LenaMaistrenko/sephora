@@ -11,3 +11,6 @@ A simple and interactive quiz application built with React. This app allows user
 - **Responsive Design**: The app is optimized for both desktop and mobile devices.
 
 - **Customizable**: Easily modify questions, options, and styles.
+
+## Live Demo
+[Live Demo](lenamaistrenko.github.io/sephora/)
