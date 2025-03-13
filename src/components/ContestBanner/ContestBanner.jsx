@@ -17,7 +17,7 @@ export function ContestBanner(){
                     Limit: one box per customer.
                 </p>
             </section>
-            <img src="img/promoImage.jpg" alt="Sephora promo banner" />
+            <img src={`${process.env.PUBLIC_URL}/img/promoImage.jpg`} alt="Sephora promo banner" />
             <section>
                 <p className="banner-text padding-mobile">
                     To receive your Sephora Box, complete the form to confirm that you are a real person.

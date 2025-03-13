@@ -7,8 +7,8 @@ export default function Header() {
   return (
     <header>
       <a href="/">
-        <img src="img/logo-sephora.png" alt="Sephora logo" className="logo"/>
-        <img src="img/logo-sephora-mobile.png" alt="Sephora logo" className="mobile-logo"/>
+        <img src={`${process.env.PUBLIC_URL}/img/logo-sephora.png`} alt="Sephora logo" className="logo"/>
+        <img src={`${process.env.PUBLIC_URL}/img/logo-sephora-mobile.png`} alt="Sephora logo" className="mobile-logo"/>
       </a>
       <Search />
       <Nav />

@@ -8,20 +8,20 @@ export function Nav() {
       <ul>
         <NavItem
             link="#"
-            icon="img/shop-and-services.svg"
+            icon={`${process.env.PUBLIC_URL}/img/shop-and-services.svg`}
             title="Shops and Services"
             subTitle="Choose your store"
             responsive={true}
         />
         <NavItem
             link="#"
-            icon="img/community-icon.svg"
+            icon={`${process.env.PUBLIC_URL}/img/community-icon.svg`}
             title="Community"
             responsive={true}
         />
         <NavItem
             link="#"
-            icon="img/login-icon.svg"
+            icon={`${process.env.PUBLIC_URL}/img/login-icon.svg`}
             title="Log in"
             subTitle="for FREE delivery &#x1F69A;"
             responsive={true}
@@ -29,11 +29,11 @@ export function Nav() {
         <div className="flex-expander" />
         <NavItem
             link="#"
-            icon="img/heart-icon.svg"
+            icon={`${process.env.PUBLIC_URL}/img/heart-icon.svg`}
         />
         <NavItem
             link="#"
-            icon="img/busket-icon.svg"
+            icon={`${process.env.PUBLIC_URL}/img/busket-icon.svg`}
         />
       </ul>
     </nav>
