@@ -1,0 +1,19 @@
+.survey-container {
+    width: calc(100% - var(--main-content-padding-left) - var(--main-content-padding-right));
+    box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.15);
+    border-radius: 28px;
+    padding: 4%;
+    padding-top: 2%;
+}
+
+.survey-container section h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.survey-container.results {
+    padding: 4%;
+    padding-top: 5%;
+    box-shadow: none;
+}

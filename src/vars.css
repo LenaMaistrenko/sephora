@@ -1,0 +1,8 @@
+:root {
+    --primary-color: #3d3f43;
+    --secondary-color: #7a7b7e;
+    --alert-color: red;
+
+    --main-content-padding-left: 10%;
+    --main-content-padding-right: 10%;
+}

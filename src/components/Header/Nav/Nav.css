@@ -1,0 +1,19 @@
+nav {
+    flex-grow: 1;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 5%;
+}
+
+/* Media query for mobile */
+@media (max-width: 768px) {
+    nav ul {
+        gap: 15%;
+    }
+}

@@ -1,0 +1,13 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+/* Media query for mobile */
+@media (max-width: 768px) {
+    main {
+        padding-top: 80px;
+    }
+}
