@@ -28,12 +28,16 @@
     cursor: pointer;
     box-shadow: none;
     appearance: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, text-shadow 0.2s ease; 
 }
 
-.quiz-container .quiz-options button:hover {
+.quiz-container .quiz-options button:hover,
+.quiz-container .quiz-options button:focus {
+    transform: scale(1.05); 
     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.25);
-    text-shadow: 0 0 4px rgb(255, 255, 255, 0.5);
-  }
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
 
 .quiz-container .quiz-options button:last-child {
     margin-bottom: 0;

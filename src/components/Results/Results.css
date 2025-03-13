@@ -1,6 +1,15 @@
-.results-container h2 {
+.results-container{
+    margin-top: 23px;
+}
+.results-title {
+    font-size: 38px !important;
+    
+}
+.results-list{
+    font-size: 22px;
+    margin-top: 24px;
     color: var(--primary-color);
-    font-size: 38px;
-
-
+}
+.results-list-item{
+    margin-top:10px;
 }

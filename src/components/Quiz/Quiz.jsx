@@ -10,7 +10,10 @@ export default function Quiz({ question, options, onAnswer }) {
           <button
             key={index}
             className="quiz-option"
-            onClick={() => onAnswer(option)}
+            onClick={(e) => {
+              onAnswer(option); 
+              e.currentTarget.blur(); 
+            }}
           >
             {option}
           </button>
